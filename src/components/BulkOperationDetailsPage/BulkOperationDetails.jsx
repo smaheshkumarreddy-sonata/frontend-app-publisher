@@ -8,7 +8,7 @@ import {
 
 import { formatDateTime } from '../../utils';
 import './styles.scss';
-
+//added for testing fork-2
 const ImageCell = ({ value }) => (
   value ? (
     <a href={value} target="_blank" rel="noopener noreferrer">
