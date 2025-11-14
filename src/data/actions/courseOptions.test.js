@@ -10,6 +10,7 @@ import {
   fetchCourseOptions,
 } from './courseOptions';
 
+//  This is for Testing purpose of CI configuration
 const mockStore = configureMockStore([thunk]);
 const mockClient = new MockAdapter(axios);
 
